@@ -9,8 +9,7 @@ import Profile from '../Profile/Profile.js';
 import Footer from '../Footer/Footer';
 import Header from "../Header/Header";
 import Error404 from '../Error404/Error404';
-import Menu from '../Menu/Menu';
-import Subscriptions from '../Subscriptions/Subscriptions';
+
 
 function App() {
 
@@ -46,7 +45,7 @@ function App() {
         } />
 
       </Routes>
-      
+
       <Footer />
     </div>
   );
