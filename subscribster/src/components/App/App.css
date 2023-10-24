@@ -1,5 +1,7 @@
 .page {
   margin: auto;
+  display: flex;
+  flex-direction: column;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
