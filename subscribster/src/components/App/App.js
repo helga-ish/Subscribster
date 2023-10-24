@@ -1,20 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
 import React from 'react';
-import { Routes, Route, Navigate, useNavigate, useLocation} from 'react-router-dom';
-import Main from '../Main/Main.js';
-import Login from '../Login/Login.js';
-import Register from '../Register/Register.js';
-import Profile from '../Profile/Profile.js';
+import { Routes, Route, Navigate } from 'react-router-dom';
+import Main from '../Main/Main';
+import Login from '../Login/Login';
+import Register from '../Register/Register';
+import Profile from '../Profile/Profile';
 import Footer from '../Footer/Footer';
 import Header from "../Header/Header";
 import Error404 from '../Error404/Error404';
 
 
 function App() {
-
-  const navigate = useNavigate();
-  const location = useLocation();
 
   return (
     <div className="page">

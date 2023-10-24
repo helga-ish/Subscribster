@@ -1,9 +1,11 @@
 import Menu from '../Menu/Menu';
+import React from 'react';
 
 function Header() {
 
+  const isLoggedIn = true;
 
-  return(
+  return (
     <header>
       <img />
       {isLoggedIn ? (

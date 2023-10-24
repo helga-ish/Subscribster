@@ -1,13 +1,17 @@
 import './Main.css';
-import Subscriptions from '../Subscriptions/Subscriptions';
+// import Subscriptions from '../Subscriptions/Subscriptions';
 
-export default function Main() {
+function Main() {
+
   return(
     <main>
       <div>
-        <Subscriptions />
+        {/* <Subscriptions /> */}
         <button>Add subscription</button>
       </div>
     </main>
   )
+
 }
+
+export default Main;
