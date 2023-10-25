@@ -10,6 +10,7 @@
   flex-direction: column;
   justify-items: center;
   align-items: center;
+  position: relative;
 }
 
 .logo {
@@ -17,6 +18,8 @@
 }
 
 .heading {
+    font-family: 'Satisfy', cursive;
+    text-align: center;
 
 }
 
