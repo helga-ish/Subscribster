@@ -1,5 +1,5 @@
 .page {
-  margin: auto;
+  margin: 30px;
   display: flex;
   flex-direction: column;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
