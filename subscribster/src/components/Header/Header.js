@@ -1,6 +1,7 @@
 import Menu from '../Menu/Menu';
 import React from 'react';
 import './Header.css';
+import { Link, useLocation } from 'react-router-dom';
 
 function Header() {
 
@@ -16,8 +17,8 @@ function Header() {
         ) : (
           <nav className='header__navigation'>
             <ul className='header__list'>
-              <li className='header__link'><button className='header__button-signin'>Sign in</button></li>
-              <li className='header__link'><button className='header__button-signup'>Sign up</button></li>
+              <li className='header__link'><Link className='header__button-signin' to='/signin'>Sign in</Link></li>
+              <li className='header__link'><Link className='header__button-signup' to='/signup'>Sign up</Link></li>
             </ul>
           </nav>
 

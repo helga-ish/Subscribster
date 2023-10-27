@@ -40,6 +40,7 @@
 
 .header__list {
   display: flex;
+  padding: 0;
   text-decoration: none;
   list-style: none;
   display: flex;
@@ -57,6 +58,10 @@
   text-decoration-thickness: 2px;
   text-underline-offset: 8px;
   transition: .4s ease-in-out;
+}
+
+.header__link_active {
+  text-decoration-color: blue;
 }
 
 .header__link:hover {
