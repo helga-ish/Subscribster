@@ -1,5 +1,6 @@
 .subscriptionsList {
   display: flex;
+  width: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -8,6 +9,9 @@
   margin-bottom: 80px;
 }
 .subscriptionsList__gallery {
+  background-color: blue;
+  border: 1px solid blue;
+  border-radius: 10px;
   list-style: none;
   max-width: 100%;
   display: flex;

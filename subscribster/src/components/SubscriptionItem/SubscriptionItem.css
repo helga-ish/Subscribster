@@ -1,0 +1,46 @@
+.subscriptionItem {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  min-height: 150px;
+}
+
+.subscriptionItem__block {
+  display: flex;
+  justify-content: center;
+}
+
+.subscriptionItem__icon {
+  display: flex;
+  align-self: center;
+  width: 50%;
+}
+
+.subscriptionItem__info {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 15px;
+  justify-items: center;
+  align-items: center;
+}
+
+.subscriptionItem__name {
+
+}
+
+.subscriptionItem__status {
+
+}
+
+.subscriptionItem__status_active {
+
+}
+
+.subscriptionItem__status_notactive {
+
+}
+
+.subscriptionItem__expire {
+  text-align: center;
+}
