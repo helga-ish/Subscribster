@@ -20,13 +20,19 @@
 .heading {
     font-family: 'Satisfy', cursive;
     text-align: center;
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 8px;
+    text-decoration-color: blue;
+
 
 }
 
 .header__navigation {
-  display: flex;
+  font-family: 'Satisfy', cursive;
+  display: grid;
+  grid-template-columns: auto auto auto;
   width: 100%;
-  /* justify-content: center; */
 }
 
 .header__list {
@@ -34,7 +40,10 @@
   text-decoration: none;
   list-style: none;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 20px;
+  grid-column: 2/3;
+
 }
 
 .header__link {

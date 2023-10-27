@@ -1,12 +1,12 @@
-/* .header__navigation {
-
-}
-.header__list {
-
-}
-.header__link {
-
-} */
 .header__logout {
-  
+  width: fit-content;
+  justify-self: end;
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  /* border-radius: 50px; */
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 8px;
+  text-decoration-color: blue;
 }
