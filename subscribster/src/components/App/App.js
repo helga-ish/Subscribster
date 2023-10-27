@@ -12,14 +12,24 @@ import Error404 from '../Error404/Error404';
 
 function App() {
 
+  const isLoggedIn = true;
+
   return (
     <div className="page">
       <Header />
       <Routes>
         <Route path='/' element={
-          <Main />
+          isLoggedIn ? (
+            <Navigate to="/subscriptions" replace />
+          ) : (
+            <Navigate to="/signin" replace />
+          )
         } />
 
+        <Route path='/subscriptions' element={
+          <Main />
+        } />
+        
         <Route path='/profile' element={
           <Profile />
         } />
