@@ -1,13 +1,14 @@
 import './Main.css';
-// import Subscriptions from '../Subscriptions/Subscriptions';
+import Subscriptions from '../Subscriptions/Subscriptions';
 
 function Main() {
 
   return(
-    <main>
-      <div>
-        {/* <Subscriptions /> */}
-        <button>Add subscription</button>
+    <main className='main'>
+      <div className='main__container'>
+        <button className='main__button'>Add subscription</button>
+        <Subscriptions />
+
       </div>
     </main>
   )

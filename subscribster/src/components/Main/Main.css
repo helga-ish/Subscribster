@@ -1,0 +1,28 @@
+.main {
+  width: 100%;
+  height: fit-content;
+}
+
+.main__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.main__button {
+  width: fit-content;
+  align-self: flex-end;
+  font-family: 'Lobster', sans-serif;
+  background-color: blue;
+  color: rgb(236, 233, 233);
+  border: 1px solid blue;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: .7s ease-in-out;
+}
+
+.main__button:hover {
+  background-color: white;
+  color: blue;
+}
