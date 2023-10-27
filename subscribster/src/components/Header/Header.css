@@ -18,18 +18,21 @@
 }
 
 .heading {
-    font-family: 'Satisfy', cursive;
-    text-align: center;
-    text-decoration-line: underline;
-    text-decoration-thickness: 2px;
-    text-underline-offset: 8px;
-    text-decoration-color: blue;
-
+  font-family: 'Lobster', sans-serif;
+  text-align: center;
+  font-size: 50px;
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 8px;
+  text-decoration-color: blue;
+  margin: 0;
+  margin-bottom: 10px;
 
 }
 
 .header__navigation {
-  font-family: 'Satisfy', cursive;
+  font-family: 'Lobster', sans-serif;
+  font-size: 20px;
   display: grid;
   grid-template-columns: auto auto auto;
   width: 100%;
@@ -41,7 +44,7 @@
   list-style: none;
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 25px;
   grid-column: 2/3;
 
 }
@@ -49,7 +52,15 @@
 .header__link {
   text-decoration: none;
   color: black;
+  text-decoration-line: underline;
+  text-decoration-color: transparent;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 8px;
+  transition: .4s ease-in-out;
+}
 
+.header__link:hover {
+  text-decoration-color: blue;
 }
 
 .header__button-signin {
