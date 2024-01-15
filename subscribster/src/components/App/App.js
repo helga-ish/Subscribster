@@ -4,6 +4,7 @@ import { Routes, Route, Navigate } from 'react-router-dom';
 import Main from '../Main/Main';
 import Login from '../Login/Login';
 import Register from '../Register/Register';
+import Randomizer from '../Randomizer/Randomizer';
 import Profile from '../Profile/Profile';
 import Footer from '../Footer/Footer';
 import Header from "../Header/Header";
@@ -29,7 +30,11 @@ function App() {
         <Route path='/subscriptions' element={
           <Main />
         } />
-        
+
+        <Route path='/randomizer' element={
+                  <Randomizer />
+        } />
+
         <Route path='/profile' element={
           <Profile />
         } />

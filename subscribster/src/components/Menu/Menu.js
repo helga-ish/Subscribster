@@ -8,6 +8,7 @@ function Menu() {
       <ul className='header__list'>
         <li><Link className='header__link' to='/profile'>Profile</Link></li>
         <li><Link className='header__link header__link_active' to='/subscriptions'>My subscriptions</Link></li>
+        <li><Link className='header__link' to='/randomizer'>My RANDOMIZER</Link></li>
       </ul>
       <button className='header__logout'>Log out</button>
     </nav>
