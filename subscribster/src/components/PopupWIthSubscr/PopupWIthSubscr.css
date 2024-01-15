@@ -1,0 +1,47 @@
+.popupWithSubscr {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  display: flex;
+  background-color: rgba(0, 0, 255, 50%);
+  visibility: hidden;
+  transition: visibility 0s linear 0.5s, opacity 0.5s linear;
+}
+
+.popupWithSubscr_active {
+  visibility: visible;
+  opacity: 1;
+  transition-delay: 0s;
+}
+
+.popupWithSubscr__container {
+  max-width: 430px;
+  min-height: 330px;
+  background-color: #FFFFFF;
+  margin: auto;
+  border-radius: 10px;
+  position: relative;
+}
+
+.popupWithSubscr__toggle {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  background-image: url('../../../images/form_toggle.svg');
+  background-size: cover;
+  padding: 0;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  cursor: pointer;
+  transition: opacity .4s;
+}
+
+.popupWithSubscr__toggle:hover {
+  opacity: .6;
+}
