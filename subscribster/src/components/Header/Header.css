@@ -14,17 +14,17 @@
 }
 
 .logo {
-
+  width: 80px;
 }
 
 .heading {
   font-family: 'Lobster', sans-serif;
   text-align: center;
   font-size: 50px;
-  text-decoration-line: underline;
+  /* text-decoration-line: underline;
   text-decoration-thickness: 2px;
-  text-underline-offset: 8px;
-  text-decoration-color: blue;
+  text-underline-offset: 8px; */
+  /* text-decoration-color: blue; */
   margin: 0;
   margin-bottom: 10px;
 

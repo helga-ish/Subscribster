@@ -1,5 +1,6 @@
 import Menu from '../Menu/Menu';
 import React from 'react';
+import logo from '../../images/logo.png';
 import './Header.css';
 import { Link, useLocation } from 'react-router-dom';
 
@@ -10,7 +11,7 @@ function Header() {
   return (
     <header className='header'>
       <div className='header__container'>
-        <img className='logo' alt='subscribster logo' />
+        <img className='logo' src={logo} alt='subscribster logo' />
         <h1 className='heading'>Subscribster</h1>
         {isLoggedIn ? (
           <Menu />
