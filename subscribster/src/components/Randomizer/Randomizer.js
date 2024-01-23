@@ -29,6 +29,7 @@ const resetList = () => {
   setNewItem('');
 
   sessionStorage.removeItem('listItems');
+  setChosenWord('');
 }
 
 const getRandomItem = () => {
@@ -58,34 +59,38 @@ const getRandomItem = () => {
 }
 
   return(
-    <section>
-      <h2>Randomizer</h2>
-      <div>
-        <h3>Things to randomize</h3>
-        <ol>
+    <section className='randomizer'>
+      <h2 className='randomizer__heading'>Randomizer</h2>
+      <div className='randomizer__container'>
+        <h3 className='randomizer__subheading'>Things to randomize</h3>
+        <ol className='randomizer__list'>
           {items.map((item, index) => (
-            <li key={index}>{item}</li>
+            <li className='randomizer__list-item' key={index}>{item}</li>
           ))}
         </ol>
-        <button onClick={getRandomItem}>Choose randomly from the list</button>
-        <div>
-          <p>Your result:</p>
-          <p>{chosenWord}</p>
+        <ul className='randomizer__button-list'>
+          <button className='randomizer__button' onClick={getRandomItem}>Choose randomly from the list</button>
+          <button className='randomizer__button' onClick={resetList}>Reset list</button>
+        </ul>
+        <div className='randomizer__result'>
+          <p className='randomizer__result-heading'>Your result:</p>
+          <p className='randomizer__result-item'>{chosenWord}</p>
         </div>
+
+        <form className='randomizer__form'>
+          <fieldset className='randomizer__form-fieldset'>
+            <label className='randomizer__form-label'>What do you want to randomize? </label>
+            <input
+            className='randomizer__form-input'
+            type='text'
+            placeholder='Enter item'
+            value={newItem}
+            onChange={(e) => setNewItem(e.target.value)}
+            />
+          </fieldset>
+          <button className='randomizer__add-button' onClick={addItem}>Add to the list</button>
+        </form>
       </div>
-      <button onClick={resetList}>Reset list</button>
-      <form>
-        <fieldset>
-          <label>What do you want to randomize? </label>
-          <input
-          type='text'
-          placeholder='Enter item'
-          value={newItem}
-          onChange={(e) => setNewItem(e.target.value)}
-          />
-        </fieldset>
-        <button onClick={addItem}>Add to the list</button>
-      </form>
     </section>
   )
 }
