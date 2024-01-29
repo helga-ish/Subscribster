@@ -62,14 +62,14 @@ const getRandomItem = () => {
     <section className='randomizer'>
       <h2 className='randomizer__heading'>Randomizer</h2>
       <div className='randomizer__container'>
-        <h3 className='randomizer__subheading'>Things to randomize</h3>
+        <h3 className='randomizer__subheading'>Your to-do list</h3>
         <ol className='randomizer__list'>
           {items.map((item, index) => (
             <li className='randomizer__list-item' key={index}>{item}</li>
           ))}
         </ol>
         <ul className='randomizer__button-list'>
-          <button className='randomizer__button' onClick={getRandomItem}>Choose randomly from the list</button>
+          <button className='randomizer__button' onClick={getRandomItem}>Choose randomly what to do first</button>
           <button className='randomizer__button' onClick={resetList}>Reset list</button>
         </ul>
         <div className='randomizer__result'>
@@ -79,7 +79,7 @@ const getRandomItem = () => {
 
         <form className='randomizer__form'>
           <fieldset className='randomizer__form-fieldset'>
-            <label className='randomizer__form-label'>What do you want to randomize? </label>
+            <label className='randomizer__form-label'>What do you want to do today? </label>
             <input
             className='randomizer__form-input'
             type='text'
