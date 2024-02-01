@@ -61,6 +61,8 @@ const getRandomItem = () => {
   return(
     <section className='randomizer'>
       <h2 className='randomizer__heading'>Randomizer</h2>
+      <h3 className='randomizer__prompt'>
+        Use our Randomizer to decide what to do first today. Add things you must do to the to-do list using "Add to the list" button. <br></br>Then, press "Choose randomly" and get your result in the "Your result" field.</h3>
       <div className='randomizer__container'>
         <h3 className='randomizer__subheading'>Your to-do list</h3>
         <ol className='randomizer__list'>

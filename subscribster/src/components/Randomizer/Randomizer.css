@@ -15,6 +15,19 @@
 
 .randomizer__heading {
   align-self: center;
+  font-size: 45px;
+}
+
+.randomizer__prompt {
+  align-self: flex-end;
+  text-align: end;
+  width: 320px;
+  font-family: sans-serif;
+  background-color: white;
+  font-size: 16px;
+  padding: 10px;
+  margin: 10px;
+  color: #7c0924;
 }
 
 .randomizer__container {
@@ -29,6 +42,7 @@
 
 .randomizer__subheading {
   font-family: sans-serif;
+  font-size: 24px;
 }
 
 .randomizer__list {
@@ -48,6 +62,7 @@
   padding: 5px;
   list-style: decimal inside;
   margin: 0;
+  font-size: 16px;
 }
 
 .randomizer__button {
@@ -68,6 +83,7 @@
   margin-top: 20px;
   margin-bottom: 20px;
   height: 40px;
+  font-size: 24px;
 }
 
 .randomizer__result-heading {
@@ -75,7 +91,7 @@
   margin: 0;
   display: flex;
   align-self: center;
-  font-size: 25px;
+  font-size: 24px;
   color: #7c0924;
 }
 
@@ -115,7 +131,7 @@
 }
 
 .randomizer__form-label {
-
+  font-size: 20px;
 }
 
 .randomizer__form-input {
