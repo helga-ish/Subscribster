@@ -1,9 +1,11 @@
-import './Footer.css';
-import { currentYear, creator } from '../../constants/const';
-import githubLogo from '../../images/githublogo.svg';
-import instaLogo from '../../images/instalogo.svg';
+import './SubFooter.css';
+import { currentYear, creator } from '../../../constants/const';
+import githubLogo from '../../../images/githublogo.svg';
+import instaLogo from '../../../images/instalogo.svg';
 
-export default function Footer() {
+export default function SubFooter() {
+
+
 
   return(
     <footer className='footer'>

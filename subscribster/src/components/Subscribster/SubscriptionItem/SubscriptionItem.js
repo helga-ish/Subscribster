@@ -1,5 +1,5 @@
 import './SubscriptionItem.css';
-import netflixicon from '../../images/netflixicon.svg';
+import netflixicon from '../../../images/netflixicon.svg';
 
 export default function SubscriptionItem() {
 

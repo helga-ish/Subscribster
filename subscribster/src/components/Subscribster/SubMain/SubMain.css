@@ -1,14 +1,14 @@
-.main {
+.submain {
   width: 100%;
   height: fit-content;
 }
 
-.main__container {
+.submain__container {
   display: flex;
   flex-direction: column;
 }
 
-.main__button {
+.submain__button {
   width: fit-content;
   align-self: flex-end;
   font-family: 'Lobster', sans-serif;
@@ -22,7 +22,7 @@
   transition: .4s ease-in-out;
 }
 
-.main__button:hover {
+.submain__button:hover {
   background-color: white;
   color: blue;
 }

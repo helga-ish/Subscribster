@@ -11,7 +11,6 @@ function Menu() {
     function handleInactiveState() {
         setIsActive(false);
     }
-  const profileLinkClassname = `header__link ${isActive ? 'header__link_active' : ''}`;
   const subscrLinkClassname = `header__link ${isActive ? 'header__link_active' : ''}`;
   const randomLinkClassname = `header__link ${isActive ? 'header__link_active' : ''}`;
 
@@ -20,11 +19,10 @@ function Menu() {
   return(
     <nav className='header__navigation'>
       <ul className='header__list'>
-        <li><Link className={profileLinkClassname} onClick={!isActive ? handleActiveState : handleInactiveState} to='/profile'>Profile</Link></li>
-        <li><Link className={subscrLinkClassname} onClick={!isActive ? handleActiveState : handleInactiveState} to='/subscriptions'>My subscriptions</Link></li>
+        <li><Link className={subscrLinkClassname} onClick={!isActive ? handleActiveState : handleInactiveState} to='/landing'>About Me</Link></li>
+        <li><Link className={subscrLinkClassname} onClick={!isActive ? handleActiveState : handleInactiveState} to='/subscribster'>Subscribster</Link></li>
         <li><Link className={randomLinkClassname} onClick={!isActive ? handleActiveState : handleInactiveState} to='/randomizer'>My Randomizer</Link></li>
       </ul>
-      <button className='header__logout'>Log out</button>
     </nav>
   )
 }

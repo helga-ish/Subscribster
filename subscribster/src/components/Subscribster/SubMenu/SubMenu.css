@@ -1,0 +1,12 @@
+.subheader__logout {
+  font-family: 'Lobster', sans-serif;
+  width: fit-content;
+  justify-self: end;
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 8px;
+  text-decoration-color: blue;
+}

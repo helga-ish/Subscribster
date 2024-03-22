@@ -1,0 +1,77 @@
+.subheader {
+  width: 100%;
+  display: flex;
+}
+
+.subheader__container {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  position: relative;
+}
+
+.logo {
+  width: 80px;
+}
+
+.subheading {
+  font-family: 'Lobster', sans-serif;
+  text-align: center;
+  font-size: 50px;
+  /* text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 8px; */
+  /* text-decoration-color: blue; */
+  margin: 0;
+  margin-bottom: 10px;
+
+}
+
+.subheader__navigation {
+  font-family: 'Lobster', sans-serif;
+  font-size: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 100%;
+}
+
+.subheader__list {
+  display: flex;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  grid-column: 2/3;
+
+}
+
+.subheader__link {
+  text-decoration: none;
+  color: black;
+  text-decoration-line: underline;
+  text-decoration-color: transparent;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 8px;
+  transition: .4s ease-in-out;
+}
+
+.subheader__link_active {
+  text-decoration-color: blue;
+}
+
+.subheader__link:hover {
+  text-decoration-color: blue;
+}
+
+.subheader__button-signin {
+
+}
+
+.subheader__button-signup {
+
+}

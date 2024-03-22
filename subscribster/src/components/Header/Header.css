@@ -1,10 +1,12 @@
 .header {
   width: 100%;
   display: flex;
+  flex-direction: column;
 }
 
 .header__container {
   margin: auto;
+  margin-bottom: 0px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -18,20 +20,22 @@
 }
 
 .heading {
-  font-family: 'Lobster', sans-serif;
+  font-family: 'Times New Roman', Times, serif;
+  color: green;
   text-align: center;
-  font-size: 50px;
-  /* text-decoration-line: underline;
-  text-decoration-thickness: 2px;
-  text-underline-offset: 8px; */
-  /* text-decoration-color: blue; */
+  font-size: 40px;
   margin: 0;
   margin-bottom: 10px;
+  text-decoration: none;
+}
 
+h1 {
+  margin: 0;
+  padding: 0;
 }
 
 .header__navigation {
-  font-family: 'Lobster', sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
   display: grid;
   grid-template-columns: auto auto auto;
@@ -68,10 +72,230 @@
   text-decoration-color: blue;
 }
 
-.header__button-signin {
+.container {
+  width: 200px;
+  margin-bottom: 0px;
+}
+
+#Girl
+{
+    animation: swing ease-in-out 1s infinite alternate;
+    transform-origin: center -20px;
+    transform-box: fill-box;
+    float:left;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
 
 }
 
-.header__button-signup {
+@keyframes swing {
+    0% { transform: rotate(9deg); }
+    100% { transform: rotate(-9deg); }
+}
 
+
+#Vector_38
+{
+    animation: swing ease-in-out 1s infinite alternate;
+    transform-origin: center 0px;
+    transform-box: fill-box;
+    float:left;
+}
+
+#Vector_39{
+    animation: swing ease-in-out 1s infinite alternate;
+    transform-origin: center 0px;
+    transform-box: fill-box;
+    float:left;
+}
+
+#Vector_40
+{
+    animation: swing ease-in-out 1s infinite alternate;
+    transform-origin: center -20px;
+    transform-box: fill-box;
+    float:left;
+}
+
+
+.shap.one {
+    background-image: -moz-linear-gradient(140deg, #009688 0%, #009688 100%);
+    background-image: -webkit-linear-gradient(140deg, #009688 0%, #009688 100%);
+    background-image: -ms-linear-gradient(140deg, #009688 0%, #009688 100%);
+    width: 650px;
+    height: 510px;
+    top: -43%;
+    left: -58%;
+}
+.shap {
+    position: absolute;
+    opacity: 0.05;
+    transform: rotate(45deg);
+    left: 90px;
+    z-index: -1;
+    border-radius: 45px;
+}
+
+.shap.two {
+    background-image: -moz-linear-gradient(140deg, #009688 0%, #009688 100%);
+    background-image: -webkit-linear-gradient(140deg, #009688 0%, #009688 100%);
+    background-image: -ms-linear-gradient(140deg, #009688 0%, #009688 100%);
+    width: 666px;
+    height: 330px;
+    top: -42%;
+    left: -15%;
+}
+.mauto{margin:auto;}
+.bg-svg{
+
+    /* background-image: url(bg.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    position: relative;
+
+  margin-bottom: 0px;
+}
+
+/* body{
+   background-color: #fafafa;
+} */
+
+#Leaf1
+{
+    -webkit-animation: shake-bottom 2s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+	        animation: shake-bottom 2s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+            transform-box: fill-box;
+            }
+
+
+#leaf11
+{
+    -webkit-animation: shake-bottom 2.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+	        animation: shake-bottom 2.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+            transform-box: fill-box;
+}
+
+#leaf10
+{
+    -webkit-animation: shake-bottom 3s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+	        animation: shake-bottom 3s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+            transform-box: fill-box;
+}
+
+#leaf12
+{
+    -webkit-animation: shake-bottom 9s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+	        animation: shake-bottom 9s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+            transform-box: fill-box;
+}
+
+#leaf13
+{
+    -webkit-animation: shake-bottom 8s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+	        animation: shake-bottom 8s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+            transform-box: fill-box;
+}
+
+#lef14
+{
+    -webkit-animation: shake-bottom 7.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+	        animation: shake-bottom 7.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+            transform-box: fill-box;
+}
+
+#leaf15
+{
+    -webkit-animation: shake-bottom 7s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+	        animation: shake-bottom 7s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+            transform-box: fill-box;
+}
+
+#leaf16
+{
+    -webkit-animation: shake-bottom 6.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+	        animation: shake-bottom 6.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+            transform-box: fill-box;
+}
+
+#leaf17
+{
+    -webkit-animation: shake-bottom 6s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+	        animation: shake-bottom 6s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+            transform-box: fill-box;
+}
+
+@-webkit-keyframes shake-bottom {
+  0%,
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transform-origin: 50% 100%;
+            transform-origin: 50% 100%;
+  }
+  10% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+  }
+  20%,
+  40%,
+  60% {
+    -webkit-transform: rotate(-4deg);
+            transform: rotate(-4deg);
+  }
+  30%,
+  50%,
+  70% {
+    -webkit-transform: rotate(4deg);
+            transform: rotate(4deg);
+  }
+  80% {
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
+  }
+  90% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+  }
+}
+@keyframes shake-bottom {
+  0%,
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transform-origin: 50% 100%;
+            transform-origin: 50% 100%;
+  }
+  10% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+  }
+  20%,
+  40%,
+  60% {
+    -webkit-transform: rotate(-4deg);
+            transform: rotate(-4deg);
+  }
+  30%,
+  50%,
+  70% {
+    -webkit-transform: rotate(4deg);
+            transform: rotate(4deg);
+  }
+  80% {
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
+  }
+  90% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+  }
+}
+
+.scallop-down{
+  background-size: 40px 100%;
+  height: 50px;
+  width: 100%;
+  background: -webkit-gradient(radial, 50% 0, 10, 50% 0, 25, from(white), color-stop(0.49, white), color-stop(0.55, rgb(3, 97, 53)), to(white));
+  -webkit-background-size: 39px 100%;
+  margin-bottom: 50px;
 }
